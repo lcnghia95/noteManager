@@ -39,7 +39,10 @@ class NoteItem extends Component {
                         </ul>
                         <div className="btn-group float-right title">
                             
-                            <button className="btn btn-outline-info" onClick = { () => this.twoActionButton()}  >Sửa</button>
+                            <button 
+                                className="btn btn-outline-info" 
+                                onClick = { () => this.twoActionButton()}  
+                            >Sửa</button>
                             <button 
                                 className="btn btn-outline-secondary"
                                 onClick = { () => this.deleteData()}
